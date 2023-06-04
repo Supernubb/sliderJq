@@ -1,0 +1,63 @@
+.slider {
+    width: 500px;
+    height: 300px;
+    margin: 100px auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.img {
+    text-align: center;
+    line-height: 300px;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    background-color: aqua;
+    width: 100%;
+}
+
+.img.curry {
+    display: block;
+}
+
+.img:first-child {
+    width: 500px;
+    background-color: brown;
+}
+
+.img:nth-child(2) {
+    width: 500px;
+    background-color: blue;
+}
+
+.img:nth-child(3) {
+    width: 500px;
+    background-color: chartreuse;
+}
+
+.img:nth-child(4) {
+    width: 500px;
+    background-color: slateblue;
+}
+
+.img:nth-child(5) {
+    width: 500px;
+    background-color: aqua;
+}
+
+.n {
+    color: teal;
+}
+
+.prev {
+    position: relative;
+    top: 260px;
+}
+
+.next {
+    position: relative;
+    top: -264px;
+    left: 96%;
+}
